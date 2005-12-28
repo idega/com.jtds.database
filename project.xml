@@ -4,7 +4,7 @@
   <extend>${base.project.dir}/base-project.xml</extend>
   <name>MSSQL Database support (with JTDS jdbc driver) </name>
   <groupId>bundles</groupId>
-  <artifactId>jtds</artifactId>
+  <artifactId>com.jtds.database</artifactId>
   <currentVersion>10.1-SNAPSHOT</currentVersion>
   <organization/>
   <inceptionYear>2005</inceptionYear>
