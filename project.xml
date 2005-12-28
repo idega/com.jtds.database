@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <pomVersion>3</pomVersion>
+  <extend>${base.project.dir}/base-project.xml</extend>
+  <name>MSSQL Database support (with JTDS jdbc driver) </name>
+  <groupId>bundles</groupId>
+  <artifactId>jtds</artifactId>
+  <currentVersion>10.1-SNAPSHOT</currentVersion>
+  <organization/>
+  <inceptionYear>2005</inceptionYear>
+  <shortDescription>An idegaWeb bundle to support the MSSQL database</shortDescription>
+  <versions/>
+  <branches/>
+  <developers>
+    <developer>
+      <name>Tryggvi Larusson</name>
+      <id>tryggvil</id>
+      <email>tryggvi@idega.is</email>
+      <organization>idega software</organization>
+      <roles/>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.core</artifactId>
+      <!--<version>1.9</version>-->
+      <version>SNAPSHOT</version>
+      <type>jar</type>
+      <url>http://www.idega.com/</url>
+      <properties>
+        <eclipse.dependency>true</eclipse.dependency>
+      </properties>
+    </dependency>
+    <dependency>
+      <groupId>jtds</groupId>
+      <artifactId>jtds</artifactId>
+      <version>1.2</version>
+      <type>jar</type>
+      <url>http://jtds.sourceforge.com/</url>
+      <properties>
+        <idegaweb.bundle.include>true</idegaweb.bundle.include>
+      </properties>
+    </dependency>
+  </dependencies>
+</project>
