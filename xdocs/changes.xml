@@ -1,0 +1,15 @@
+<document>
+  <properties>
+    <title>Filter changes</title>
+    <author email="eiki@idega.is">Eirikur Hrafnsson</author>
+  </properties>
+  <body>
+  
+	<release version="1.2" date="2007-03-20">
+      <action dev="eiki" type="update">
+      	First version for use with 3.1
+      </action>  
+    </release>
+    
+  </body>
+</document>
