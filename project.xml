@@ -6,7 +6,7 @@
   <name>MSSQL Database support (with JTDS jdbc driver)</name>
   <groupId>bundles</groupId>
   <artifactId>com.jtds.database</artifactId>
-  <currentVersion>1.2</currentVersion>
+  <currentVersion>1.2.1</currentVersion>
   <organization/>
   <inceptionYear>2005</inceptionYear>
   <shortDescription>An idegaWeb bundle to support the MSSQL database</shortDescription>
@@ -15,6 +15,11 @@
       <id>1.2</id>
       <name>1.2</name>
       <tag>JTDS_DRIVER_1_2</tag>
+    </version>
+    <version>
+      <id>1.2.1</id>
+      <name>1.2.1</name>
+      <tag>JTDS_DRIVER_1_2_1</tag>
     </version>
   </versions>
   <branches/>
