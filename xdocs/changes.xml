@@ -5,6 +5,11 @@
   </properties>
   <body>
   
+	<release version="1.2.1" date="2007-07-30">
+      <action dev="sigtryggur" type="update">
+      	Newer version of the jar
+      </action>  
+    </release>
 	<release version="1.2" date="2007-03-20">
       <action dev="eiki" type="update">
       	First version for use with 3.1
